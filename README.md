@@ -2,7 +2,7 @@
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/211/badge.svg)](https://scan.coverity.com/projects/211) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/307/badge)](https://bestpractices.coreinfrastructure.org/projects/307)
 
 AlterOffice is an integrated office suite based on copyleft licenses
-and compatible with most document formats and standards. Libreoffice
+and compatible with most document formats and standards. AlterOffice
 is backed by The Document Foundation, which represents a large
 independent community of enterprises, developers and other volunteers
 moved by the common goal of bringing to the market the best software
@@ -30,7 +30,7 @@ if you are a reasonably able C++ programmer.
 ## The build chain and runtime baselines
 
 These are the current minimal operating system and compiler versions to
-run and compile LibreOffice, also used by the TDF builds:
+run and compile AlterOffice, also used by the TDF builds:
 
 * Windows:
     * Runtime: Windows 7
@@ -47,14 +47,14 @@ run and compile LibreOffice, also used by the TDF builds:
 * Android:
     * Build: NDK r19c
 
-If you want to use Clang with the LibreOffice compiler plugins, the minimal
+If you want to use Clang with the AlterOffice compiler plugins, the minimal
 version of Clang is 5.0.2. Since Xcode doesn't provide the compiler plugin
 headers, you have to compile your own Clang to use them on macOS.
 
 You can find the TDF configure switches in the distro-configs/ directory.
 
 To setup your initial build environment on Windows and macOS, we provide
-the LibreOffice Development Environment
+the AlterOffice Development Environment
 ([LODE](https://wiki.documentfoundation.org/Development/lode)) scripts.
 
 For more information see the build instructions for your platform in the
